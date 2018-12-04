@@ -2,21 +2,13 @@
 
 $roles = array(
 			'' => array (
-				'home' => array ('index', 'list', 'insert', 'update', 'update_status', 'delete'),
+				'home' => array ('index', 'bisa_diakses_tanpa_login'),
 			),
-			'administrator' => array (
-				'assignmenu' => array ('index', 'list', 'insert', 'update', 'delete'),
-				'menu' => array ('index', 'list', 'insert', 'update', 'update_status', 'delete'),
-				'role' => array ('index', 'list', 'insert', 'update', 'update_status'),
-				'broadcast' => array ('index', 'list', 'insert', 'update', 'update_status', 'delete'),				
+			'Admin' => array (
+				'home' => array ('index', 'bisa_diakses_admin_doang'),								
 			),
-			'supervisor' => array (
-				'menu' => array ('index', 'list', 'insert', 'update', 'update_status', 'delete'),
-				'user' => array ('index', 'list', 'insert', 'update', 'update_status', 'delete'),		
-			),
-			'operator' => array (
-				'menu' => array ('index', 'list', 'insert', 'update', 'update_status', 'delete'),
-				'user' => array ('index', 'list', 'insert', 'update', 'update_status', 'delete'),	
+			'Operator' => array (
+				'home' => array ('index', 'bisa_diakses_operator_doang'),
 			),	
 		);
 

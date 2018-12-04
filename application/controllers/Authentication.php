@@ -34,8 +34,8 @@ class Authentication extends CI_Controller {
 				$error_status = true;
 			}
 			$filters = array();
-			$filters[] = "A.NMUSER = '".$_POST['username']."'";
-			$filters[] = "A.PSSWRD = '".md5($_POST['password'])."'";
+			$filters[] = "A.nmuser = '".$_POST['username']."'";
+			$filters[] = "A.psswrd = '".md5($_POST['password'])."'";
 			
 			$data = $this->user_model->get_user($filters);	
 			if(empty($data)){
@@ -58,9 +58,9 @@ class Authentication extends CI_Controller {
 				foreach($data as $item){
 					$data_session=array(
 						'ID'=>$item->ID,
-						'USERNAME'=>$item->NMUSER,
-						'ROLE_NAME'=>$item->ROLE,
-						'KPPN'=>$item->NMKPPN,
+						'USERNAME'=>$item->nmuser,
+						'ROLE_NAME'=>$item->role,
+						'KPPN'=>$item->nmkppn,
 						'is_logged_in'=>1
 					);					
 				}

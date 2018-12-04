@@ -51,7 +51,7 @@
 					<button type="submit" id="login-submit" name="login-submit" class="btn btn-login float-right">Submit</button>
 				  </div>
 				</form>
-				<div class="copy-text">Created with <i class="fa fa-heart"></i> by <a href="http://omyudi.com">OmYudi.com</a></div>
+				<div class="copy-text">Created with <i class="fa fa-heart"></i> by <a href="https://yudiprasetya.com">yudiprasetya.com</a></div>
 			</div>		
 		
 			<div class="register-sec">

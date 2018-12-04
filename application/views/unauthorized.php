@@ -29,7 +29,7 @@
 				<div class="text-center">
 					<a href="<?php echo base_url(); ?>" class="btn btn-lg btn-info"><i class="fa fa-home"></i>  GO HOME</a>
 				</div>
-				<div class="copy-text text-center">Created with <i class="fa fa-heart"></i> by <a href="http://omyudi.com">OmYudi.com</a></div>
+				<div class="copy-text text-center">Created with <i class="fa fa-heart"></i> by <a href="https://yudiprasetya.com">yudiprasetya.com</a></div>
 			</div>		
 		</div>
 		
